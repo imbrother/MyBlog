@@ -1,0 +1,49 @@
+* { margin: 0; padding: 0 }
+body { font: 12px  "Arial", Helvetica, sans-serif; color:#756F71 }
+a{ list-style: none; text-decoration: none}
+ul,li { list-style: none; }
+header { width: 1000px; margin: auto; height:110px; position: relative; overflow: hidden }
+ article {
+ 
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+ nav { float: right; width: 100%; margin: 30px 0 0 0; text-align: right }
+/*nav ul{float: right;}*/
+nav ul li{display: inline-block;}
+nav a { position: relative; display: inline-block; font-size: 18px; color:#999; font-family: "Arial", Helvetica, sans-serif; }
+nav a:hover { color:#CC3;}
+.topnav a { margin: 0 5px; padding: 0 8px; }
+ .left { float: left; width: 70%; overflow: hidden; background: url(../img/r_line.jpg) repeat-y right; line-height:22px; }
+.right { float: right;width: 30%; margin-top: 10px;}
+ /*.aboutcon{background:url(../img/0008020208276165_b.png) no-repeat bottom right; color:#696969}*/
+
+/*h1.t_nav { border-bottom: #F1F1F1 1px solid;margin-top:40px;  font-size: 12px; font-weight: normal; line-height: 20px; height: 20px; }*/
+.t_nav { height: 40px; }
+.t_nav a{ display:inline-block; color: #999; float:right; margin-right: 30px;}
+.t_nav span{float:left; font-weight:bold;  color:#999;font-size: 20px;display: block;}
+.about h2{ font-size:20px; margin-bottom:20px}
+.about p{ margin:0 25px 20px 0; text-indent:25px;}
+.about{margin:20px 0}
+
+
+
+.about_c{margin:20px 0; position:relative;}
+.about_c{ padding:10px 0 0 10px; color:#999; line-height:26px; }
+.about_c img{ margin:5px 0}
+.about_c span{ color:#19A566}
+.avatar { float: right; margin:40px; ; width: 130px; height: 130px; border-radius: 100%; overflow: hidden; border: #FFF 4px solid; position:absolute; left:95px; top:-22px; }
+.avatar a { display: block; padding-top: 97px; width: 160px; background: url(../img/photo.jpg) no-repeat; background-size: 130px 130px }
+.avatar a span { display: block; margin-top: 63px; padding-top: 8px; width: 130px; height: 55px; text-align: center; line-height: 20px; color: #fff; background: rgba(0, 0, 0, .5); -webkit-transition: margin-top .2s ease-in-out; -moz-transition: margin-top .2s ease-in-out; -o-transition: margin-top .2s ease-in-out; transition: margin-top .2s ease-in-out; }
+.avatar a:hover span { display: block; margin-top: 0; }
+ 
+
+ footer { background: #333; width: 100%; clear: both; text-align: center; height:50px; }
+.ft-copyright { color: #fff; line-height: 50px; }
+#tbox { width: 54px; float: right; position: fixed; right: 50px; bottom: 15px; _position: absolute; _bottom: auto; /*_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));*/
+_margin-bottom: 15px; }/*���IE6�²����� position:fixed ������*/
+ #gotop { width: 54px; height: 56px; display: block; background: url(../img/TOP.png) no-repeat #111; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; }
+ #gotop { background-position: 12px 10px; }
+ #gotop:hover { opacity: 0.5 }
