@@ -20,9 +20,9 @@ li {
 
 header {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     height: 110px;
-    position: relative;
+    /*position: relative;*/
     overflow: hidden
 }
 
@@ -363,7 +363,7 @@ nav a:hover {
 
 .memorial_day {
     width: 1000px;
-    margin: 8px auto auto;
+    margin: 8px auto;
     overflow: hidden;
     position: relative;
     padding: 60px;
@@ -546,22 +546,6 @@ article {
     border-bottom: #55c63b 4px solid;
 }
 
-.topnews h2 b {}
-
-.topnews h2 span {
-    float: right;
-    font-size: 12px;
-    font-weight: normal;
-}
-
-.topnews h2 span a {
-    display: inline-block;
-    padding: 0 5px;
-}
-
-.topnews h2 span a:hover {
-    color: #000
-}
 
 .blogs {
     padding: 30px 0;
@@ -573,15 +557,7 @@ article {
 .blogs h3 {
     font-size: 16px;
     font-weight: bold;
-    transition: all .5s;
-    margin-bottom: 10px
-}
-
-.blogs h3.hong a {
-    color: #F00;
-    font-size: 16px;
-    font-weight: bold;
-    transition: all .5s;
+   /* transition: all .5s;*/
     margin-bottom: 10px
 }
 
@@ -824,6 +800,7 @@ article {
 .cloud h3 a {
     font: normal 12px/40px;
     margin-left: 180px;
+    color: #38485A;
 }
 
 .cloud h3 a:hover {
@@ -852,7 +829,7 @@ article {
 .cloud ul li a {
     color: #FFF
 }
-
+/*nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型,n 可以是数字、关键词或公式*/
 .cloud ul li:nth-child(8n-7) {
     background: #8A9B0F
 }
