@@ -156,7 +156,7 @@ nav a:hover {
 
 .arrow_box {
     background: #f8f8f8;
-    box-shadow: 0px 1px 0px rgba(255, 255, 255, .1), inset 0px 1px 1px rgba(214, 214, 214, 0.7);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, .1);
     width: 730px;
     border-radius: 6px;
     position: relative;
@@ -189,7 +189,7 @@ nav a:hover {
 }
 
 
-/* ������ */
+
 
 .arrow_box::after {
     content: "";

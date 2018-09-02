@@ -92,7 +92,7 @@ nav a:hover {
     -o-transform: translate(60px, 0);
     -ms-transform: translate(60px, 0);
     transform: translate(60px, 0);
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8), 2px 2px 3px rgba(180, 151, 151, 0.3);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 .texts p:nth-child(1) {
@@ -120,11 +120,11 @@ nav a:hover {
 }
 
 .texts p:nth-child(4) {
-    -webkit-animation: animations2 9s ease-in-out 8s backwards;
-    -moz-animation: animations2 5s ease-in-out 7s backwards;
-    -o-animation: animations2 5s ease-in-out 7s backwards;
-    -ms-animation: animations2 5s ease-in-out 7s backwards;
-    animation: animations2 5s ease-in-out 7s backwards;
+    -webkit-animation: animations2 5s ease-in-out 8s backwards;
+    -moz-animation: animations2 5s ease-in-out 8s backwards;
+    -o-animation: animations2 5s ease-in-out 8s backwards;
+    -ms-animation: animations2 5s ease-in-out 8s backwards;
+    animation: animations2 5s ease-in-out 8s backwards;
 }
 
 @-webkit-keyframes animations {

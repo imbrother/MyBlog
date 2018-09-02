@@ -191,10 +191,6 @@ footer {
     position: fixed;
     right: 50px;
     bottom: 15px;
-    _position: absolute;
-    _bottom: auto;
-   
-    _margin-bottom: 15px;
 }
 
 
@@ -202,9 +198,7 @@ footer {
     width: 54px;
     height: 56px;
     display: block;
-    background: url(../img/TOP.png) no-repeat #111;
-    box-shadow: 0px 1px 0px rgba(255, 255, 255, .1), inset 0px 1px 1px rgba(0, 0, 0, .7);
-    border-radius: 6px;
+    background: url(../img/TOP.png) no-repeat;
 }
 
 #gotop {
